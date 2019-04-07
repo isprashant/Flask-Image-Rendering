@@ -3,6 +3,8 @@
         <title>Index</title>
     </head>
     <body>
-        <img src= user_image alt="Image">
+        {%for i in range(6)%}
+        <img src= "{{user_image[i]}}" alt="Image">
+        {%endfor%}
     </body>
 </html>
