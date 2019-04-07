@@ -14,5 +14,6 @@ def hello():
                 filename = os.path.join(app.config['UPLOAD_FOLDER'], "download (1).jpg")
                 return render_template('index.html', user_image = filename)
 
+
 if __name__ == '__main__':
     app.run()
